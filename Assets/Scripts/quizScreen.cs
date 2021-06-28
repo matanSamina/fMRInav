@@ -41,7 +41,6 @@ public class quizScreen : MonoBehaviour
             Player.disp("wrong answer" , 2.0f);
         }
 
-        Player.rend(false);
         Player.moveIsEnable = true;
         Destroy(gameObject);
     }

@@ -181,7 +181,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    public void rend(bool diaplay)
+    public void rend(bool diaplay = true)
     {
         // enable blackscreen rendring
         bs.GetComponent<MeshRenderer>().enabled = diaplay;
@@ -228,8 +228,9 @@ public class PlayerMovement : MonoBehaviour
     {
         dispText.GetComponent<TMPro.TextMeshProUGUI>().text  = msgToDisp;
         if (timeToDisp > 0.0f) { Invoke("destMsg", timeToDisp); }
-        rend(true);
+        rend();
     }
+    
     public void dispExtraMsg(string msgToDisp , float timeToDisp = 0.0f)
     {
         dispExtraText.GetComponent<TMPro.TextMeshProUGUI>().text  = msgToDisp;

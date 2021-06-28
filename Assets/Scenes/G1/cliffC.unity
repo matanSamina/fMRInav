@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1438.4302, g: 1566.5295, b: 1774.4391, a: 1}
+  m_IndirectSpecularColor: {r: 1478.846, g: 1831.9392, b: 2425.4006, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 4a62ef52259d4674d89f42da8be01162, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!4 &276623060
 Transform:
   m_ObjectHideFlags: 0
@@ -5774,7 +5774,7 @@ MonoBehaviour:
   counter: 0
   coin: {fileID: 3821047367371398098, guid: c999799694f19674f82e54e56aa89907, type: 3}
   NumOfCoins: 0
-  poseListCSV: {fileID: 4900000, guid: 49f850f8cdfe5934ea7376a824b3d350, type: 3}
+  poseListCSV: {fileID: 4900000, guid: 24f5b16b35e743240a8d08e515fa5d9f, type: 3}
   Player: {fileID: 0}
   log: {fileID: 0}
 --- !u!4 &947615000

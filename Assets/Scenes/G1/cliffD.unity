@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1438.4302, g: 1566.5295, b: 1774.4391, a: 1}
+  m_IndirectSpecularColor: {r: 1478.846, g: 1831.9392, b: 2425.4006, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1466,7 +1466,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 4a62ef52259d4674d89f42da8be01162, type: 2}
+  sharedProfile: {fileID: 0}
 --- !u!4 &276623060
 Transform:
   m_ObjectHideFlags: 0
@@ -5313,7 +5313,7 @@ MonoBehaviour:
   counter: 0
   coin: {fileID: 3821047367371398098, guid: c999799694f19674f82e54e56aa89907, type: 3}
   NumOfCoins: 0
-  poseListCSV: {fileID: 4900000, guid: f3df046585d43864f9963a3afbffcbbc, type: 3}
+  poseListCSV: {fileID: 4900000, guid: 24f5b16b35e743240a8d08e515fa5d9f, type: 3}
   Player: {fileID: 0}
   log: {fileID: 0}
 --- !u!4 &947615000
@@ -8645,6 +8645,10 @@ PrefabInstance:
       propertyPath: enableQuiz
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: teleportCSV
+      value: 
+      objectReference: {fileID: 4900000, guid: 21095da5c82e51a41a13686041269810, type: 3}
     - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: blackScreenPrefab
       value: 
