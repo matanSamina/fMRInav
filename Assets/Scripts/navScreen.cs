@@ -13,8 +13,6 @@ public class navScreen : MonoBehaviour
     public int target;
     private Object[] textures;
 
-
-    private bool QuizIsOn = false;
     public PlayerMovement Player;
 
     private bool startNav = false;

@@ -39,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
     
     [HideInInspector] public bool moveIsEnable = false;
     private string[] moveField;
-    float elapsed = 0f;
     public GameObject LogObj;
 
     public GameObject QueezblackScreenPrefab;
@@ -67,13 +66,15 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public GameObject dispExtraText;
     [HideInInspector] private string GuiExtraMsg;
 
+
+    // player movment variables
     [HideInInspector] bool isGrounded;
     [HideInInspector] public float gravity = -10f;
     [HideInInspector] public float jumpHeight = 2f;
 
     public Transform groundCheck;
     [HideInInspector] public float groundDistance = 0.4f;
-    [HideInInspector] public LayerMask groundMask;
+    public LayerMask groundMask;
 
     void Awake()
     {
@@ -140,9 +141,28 @@ public class PlayerMovement : MonoBehaviour
             }
 
             Vector3 move = transform.forward * z;
+
             controller.Move(move * speed * Time.deltaTime);
+
             velocity.y += gravity * Time.deltaTime;
+
             controller.Move(velocity * Time.deltaTime);
+
+
+
+
+            //z = Input.GetAxis("Vertical");
+            //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+            //if (isGrounded && velocity.y < 0)
+           // {
+                velocity.y = -2f;
+            //}
+
+         //   Vector3 move = transform.forward * z;
+          //  controller.Move(move * speed * Time.deltaTime);
+          //  velocity.y += gravity * Time.deltaTime;
+         //   controller.Move(velocity * Time.deltaTime);
         }
 
         if (freeExplorationMode)

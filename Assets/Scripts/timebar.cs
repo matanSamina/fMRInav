@@ -50,9 +50,7 @@ public class timebar : MonoBehaviour
             if (teleportationMode == true || continusMode == true)
             {
                 float timeRe = timeForGame - t;
-                int coinsLeft = coins.NumOfCoins - coins.counter;
                // txt.text = "Time Remaining " + timeRe.ToString("N2") + "sec";
-                //txtOfCoins.text = coinsLeft.ToString() + "  Coins left to collect";
             }
             else
             {   

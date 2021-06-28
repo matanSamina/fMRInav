@@ -9,7 +9,6 @@ public class quizScreen : MonoBehaviour
 
     public string imagePath = "pics/mountains";
     private Texture2D[] typedTextures;
-    private bool QuizIsOn = false;
     private int PicNum = 2;
     private Object[] textures;
     private float quizTime = 10f;

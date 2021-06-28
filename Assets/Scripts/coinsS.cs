@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class coinsS : MonoBehaviour
 {
-    float deltaTime = 0.0f;
 
     [HideInInspector] public int score = 0;
     [HideInInspector] public int counter = 0;
@@ -86,8 +85,4 @@ public class coinsS : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    void Update()
-    {
-        deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
-    }
 }
