@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: d35a774608b7bdd42adcbdd05b1dbbf0
+  - enabled: 1
+    path: Assets/Scenes/myPrefabs/menu.unity
+    guid: e6d57fd8a6a654c4e8749b3a4f0968ea
+  - enabled: 1
+    path: Assets/Scenes/G1/orbanC.unity
+    guid: dc1a6ac67d3346a479968a86cd848bb6
+  - enabled: 1
+    path: Assets/Scenes/G1/orbanD.unity
+    guid: 4cdbcf6d48bd5584a8824047832dda09
+  - enabled: 1
+    path: Assets/Scenes/G1/cliffC.unity
+    guid: 200942100c581b743abdd6cdc682dd5f
+  - enabled: 1
+    path: Assets/Scenes/G1/cliffD.unity
+    guid: ff18c5b1df9758844bf0ce5b031e1c44
+  - enabled: 1
+    path: Assets/Scenes/G2/cliffFree.unity
+    guid: 9ceecc7bb49015144b405e809d5f7f56
+  - enabled: 1
+    path: Assets/Scenes/G2/cliffD.unity
+    guid: 226591a4e81141344978eb493fa157dd
+  - enabled: 1
+    path: Assets/Scenes/G2/cliffC.unity
+    guid: 3429f2b249b66724e9352e69d737ccc0
+  - enabled: 1
+    path: Assets/Scenes/G2/orbanD.unity
+    guid: 30d839e4be9969a4793528d3b6823a40
+  - enabled: 1
+    path: Assets/Scenes/G2/orbanFree.unity
+    guid: 5eb0ab6ba2daf254aba9b29097d01051
+  - enabled: 1
+    path: Assets/Scenes/G2/orbanC.unity
+    guid: 83b551205d87dae4c9df1797eb0b30fd
+  - enabled: 1
+    path: Assets/Scenes/G1/orbanFree.unity
+    guid: e53ba9924e1876c45a45198bf36b7f9c
+  m_configObjects: {}

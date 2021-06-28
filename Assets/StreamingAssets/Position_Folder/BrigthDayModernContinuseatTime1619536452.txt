@@ -1,0 +1,6 @@
+BrigthDayModernContinuse
+starting time in Unix:1619536452
+t,0,x,2.8,z,1.6,rot,-0.9813081
+t,1,x,2.8,z,1.6,rot,-0.9813081
+t,2,x,2.8,z,1.6,rot,-0.9813081
+t,2,x,2.8,z,1.6,rot,-0.9813081
