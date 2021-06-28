@@ -55,11 +55,16 @@ public class coinsS : MonoBehaviour
             }
 
             counter += 1;
+
+            int coinsLeft = NumOfCoins - counter;
+            string msg = coinsLeft.ToString() + "  Coins left to collect";
+            Player.dispExtraMsg(msg);
         }
         else
         {
             log = GameObject.FindWithTag("log").GetComponent<logSys>();
-            Player.disp("Stage completed!");
+            Player.destExtraMsg();
+            Player.disp("stage completed!");
             string msg = "stageCompleted";
             int lvlNum = SceneManager.GetActiveScene().buildIndex;
             log.updateEventLog(lvlNum, msg); // update log file

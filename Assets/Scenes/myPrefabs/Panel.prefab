@@ -337,6 +337,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
     - target: {fileID: 4846018057319558358, guid: b22d53938c975b4488f4210973e24da2, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: 2192
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846018057319558358, guid: b22d53938c975b4488f4210973e24da2, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}

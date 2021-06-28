@@ -227,6 +227,7 @@ public class PlayerMovement : MonoBehaviour
     public void disp(string msgToDisp , float timeToDisp = 0.0f)
     {
         dispText.GetComponent<TMPro.TextMeshProUGUI>().text  = msgToDisp;
+        moveIsEnable = false;
         if (timeToDisp > 0.0f) { Invoke("destMsg", timeToDisp); }
         rend();
     }
@@ -241,10 +242,11 @@ public class PlayerMovement : MonoBehaviour
     {
         GuiMsg = "";
         dispText.GetComponent<TMPro.TextMeshProUGUI>().text  = GuiMsg;
+        moveIsEnable = true;
         rend(false);
     }
 
-    private void destExtraMsg()
+    public void destExtraMsg()
     {
         dispExtraText.GetComponent<TMPro.TextMeshProUGUI>().text = ""; 
     }

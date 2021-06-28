@@ -27,6 +27,7 @@ public class quizScreen : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player").GetComponent<PlayerMovement>();
         Player.rend(true);
+        Player.destExtraMsg();
         loadImages();
     }
 
@@ -41,7 +42,6 @@ public class quizScreen : MonoBehaviour
             Player.disp("wrong answer" , 2.0f);
         }
 
-        Player.moveIsEnable = true;
         Destroy(gameObject);
     }
 
