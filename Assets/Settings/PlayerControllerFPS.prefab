@@ -305,7 +305,7 @@ MonoBehaviour:
   eatCoin: 0
   moveIsEnable: 0
   LogObj: {fileID: 7627573169574487233, guid: 8ded595a64168f946a5add231b021ff4, type: 3}
-  QueezblackScreenPrefab: {fileID: 0}
+  QueezblackScreenPrefab: {fileID: 2447487012731012411, guid: 73d204df53ff899429939316778d29f5, type: 3}
   picsFolderForQuiz: pics/mountains
   quizTime: 10
   bs: {fileID: 9167191491298598585}
