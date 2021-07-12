@@ -5,18 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: d35a774608b7bdd42adcbdd05b1dbbf0
   - enabled: 1
     path: Assets/Scenes/myPrefabs/menu.unity
     guid: e6d57fd8a6a654c4e8749b3a4f0968ea
   - enabled: 1
     path: Assets/Scenes/G1/orbanC.unity
     guid: dc1a6ac67d3346a479968a86cd848bb6
-  - enabled: 1
-    path: Assets/Scenes/G1/orbanD.unity
-    guid: 4cdbcf6d48bd5584a8824047832dda09
   - enabled: 1
     path: Assets/Scenes/G1/cliffC.unity
     guid: 200942100c581b743abdd6cdc682dd5f
@@ -44,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/G1/orbanFree.unity
     guid: e53ba9924e1876c45a45198bf36b7f9c
+  - enabled: 1
+    path: Assets/Scenes/2G/orbanD1.unity
+    guid: 194e5f95378bfce42be3ec433f4d8123
+  - enabled: 1
+    path: Assets/Scenes/2G/orbanD2.unity
+    guid: e0b86a9fae3fe4f4f9404f400d397f75
   m_configObjects: {}

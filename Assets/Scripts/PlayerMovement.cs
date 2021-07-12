@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     // GAMES MODES
     
     public bool teleportationMode = false;
+    public bool teleportationModeExtended = false;
     public bool fMRImode = false;
     public bool freeExplorationMode = true;
     public bool continusMode = false;
@@ -149,20 +150,6 @@ public class PlayerMovement : MonoBehaviour
             controller.Move(velocity * Time.deltaTime);
 
 
-
-
-            //z = Input.GetAxis("Vertical");
-            //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-            //if (isGrounded && velocity.y < 0)
-           // {
-                velocity.y = -2f;
-            //}
-
-         //   Vector3 move = transform.forward * z;
-          //  controller.Move(move * speed * Time.deltaTime);
-          //  velocity.y += gravity * Time.deltaTime;
-         //   controller.Move(velocity * Time.deltaTime);
         }
 
         if (freeExplorationMode)
