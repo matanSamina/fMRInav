@@ -1,1 +1,1 @@
-# fMRInavigationSimulator
+# fMRI Navigation Simulator
